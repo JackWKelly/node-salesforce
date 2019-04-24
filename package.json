@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JackWKelly/node-salesforce#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "nforce": "^1.12.1"
   }

@@ -2,6 +2,9 @@
 
 const express = require('express');
 const app = express();
+const cors = require('cors');
+app.use(cors());
+app.options('*', cors())
 
 //custom dependencies
 const routes = require('./routes');
